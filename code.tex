@@ -1,0 +1,129 @@
+
+\documentclass{article}
+\usepackage[hmargin=1in,vmargin=1in]{geometry}
+\usepackage{listings}
+\usepackage{color}
+
+% For better handling of unicode (Latin characters, anyway)
+\IfFileExists{lmodern.sty}{\usepackage{lmodern}}{}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\lstset{
+    numbers=left,                   % where to put the line-numbers
+    numberstyle=\small \ttfamily \color[rgb]{0.4,0.4,0.4},
+                % style used for the linenumbers
+    showspaces=false,               % show spaces adding special underscores
+    showstringspaces=false,         % underline spaces within strings
+    showtabs=false,                 % show tabs within strings adding particular underscores
+    frame=lines,                    % add a frame around the code
+    tabsize=4,                        % default tabsize: 4 spaces
+    breaklines=true,                % automatic line breaking
+    breakatwhitespace=false,        % automatic breaks should only happen at whitespace
+    basicstyle=\ttfamily,
+    %identifierstyle=\color[rgb]{0.3,0.133,0.133},   % colors in variables and function names, if desired.
+    keywordstyle=\color[rgb]{0.133,0.133,0.6},
+    commentstyle=\color[rgb]{0.133,0.545,0.133},
+    stringstyle=\color[rgb]{0.627,0.126,0.941},
+}
+
+\begin{document}
+\title{ACE2.0 Data Processing Module}
+\author{Wut Hmone Hnin Hlaing (wut.hmone@tmrnd.com.my)}
+
+\maketitle
+
+\section*{ace2/advisory/\_\_init\_\_.py}
+\lstinputlisting[language=Python]{"/media/sf_share/ACE/ACE2/ACE_DEV/ace2/advisory/__init__.py"}
+
+\section*{ace2/advisory/smartqueue\_ast.py}
+\lstinputlisting[language=Python]{"/media/sf_share/ACE/ACE2/ACE_DEV/ace2/advisory/smartqueue_ast.py"}
+
+\section*{ace2/advisory/smartqueue.py}
+\lstinputlisting[language=Python]{"/media/sf_share/ACE/ACE2/ACE_DEV/ace2/advisory/smartqueue.py"}
+
+\section*{ace2/advisory/threshold.py}
+\lstinputlisting[language=Python]{"/media/sf_share/ACE/ACE2/ACE_DEV/ace2/advisory/threshold.py"}
+
+\section*{ace2/dwell/daily.py}
+\lstinputlisting[language=Python]{"/media/sf_share/ACE/ACE2/ACE_DEV/ace2/dwell/daily.py"}
+
+\section*{ace2/dwell/\_\_init\_\_.py}
+\lstinputlisting[language=Python]{"/media/sf_share/ACE/ACE2/ACE_DEV/ace2/dwell/__init__.py"}
+
+\section*{ace2/dwell/monthly.py}
+\lstinputlisting[language=Python]{"/media/sf_share/ACE/ACE2/ACE_DEV/ace2/dwell/monthly.py"}
+
+\section*{ace2/dwell/weekly.py}
+\lstinputlisting[language=Python]{"/media/sf_share/ACE/ACE2/ACE_DEV/ace2/dwell/weekly.py"}
+
+\section*{ace2/emo/daily.py}
+\lstinputlisting[language=Python]{"/media/sf_share/ACE/ACE2/ACE_DEV/ace2/emo/daily.py"}
+
+\section*{ace2/emo/\_\_init\_\_.py}
+\lstinputlisting[language=Python]{"/media/sf_share/ACE/ACE2/ACE_DEV/ace2/emo/__init__.py"}
+
+\section*{ace2/emo/monthly.py}
+\lstinputlisting[language=Python]{"/media/sf_share/ACE/ACE2/ACE_DEV/ace2/emo/monthly.py"}
+
+\section*{ace2/emo/weekly.py}
+\lstinputlisting[language=Python]{"/media/sf_share/ACE/ACE2/ACE_DEV/ace2/emo/weekly.py"}
+
+\section*{ace2/qms/daily.py}
+\lstinputlisting[language=Python]{"/media/sf_share/ACE/ACE2/ACE_DEV/ace2/qms/daily.py"}
+
+\section*{ace2/qms/\_\_init\_\_.py}
+\lstinputlisting[language=Python]{"/media/sf_share/ACE/ACE2/ACE_DEV/ace2/qms/__init__.py"}
+
+\section*{ace2/qms/monthly.py}
+\lstinputlisting[language=Python]{"/media/sf_share/ACE/ACE2/ACE_DEV/ace2/qms/monthly.py"}
+
+\section*{ace2/qms/weekly.py}
+\lstinputlisting[language=Python]{"/media/sf_share/ACE/ACE2/ACE_DEV/ace2/qms/weekly.py"}
+
+\section*{ace2/target/\_\_init\_\_.py}
+\lstinputlisting[language=Python]{"/media/sf_share/ACE/ACE2/ACE_DEV/ace2/target/__init__.py"}
+
+\section*{ace2/target/process.py}
+\lstinputlisting[language=Python]{"/media/sf_share/ACE/ACE2/ACE_DEV/ace2/target/process.py"}
+
+\section*{ace2/target/target.py}
+\lstinputlisting[language=Python]{"/media/sf_share/ACE/ACE2/ACE_DEV/ace2/target/target.py"}
+
+\section*{ace2/video/daily.py}
+\lstinputlisting[language=Python]{"/media/sf_share/ACE/ACE2/ACE_DEV/ace2/video/daily.py"}
+
+\section*{ace2/video/\_\_init\_\_.py}
+\lstinputlisting[language=Python]{"/media/sf_share/ACE/ACE2/ACE_DEV/ace2/video/__init__.py"}
+
+\section*{ace2/video/monthly.py}
+\lstinputlisting[language=Python]{"/media/sf_share/ACE/ACE2/ACE_DEV/ace2/video/monthly.py"}
+
+\section*{ace2/video/weekly.py}
+\lstinputlisting[language=Python]{"/media/sf_share/ACE/ACE2/ACE_DEV/ace2/video/weekly.py"}
+
+\section*{ace2/wifi/appendeod.py}
+\lstinputlisting[language=Python]{"/media/sf_share/ACE/ACE2/ACE_DEV/ace2/wifi/appendeod.py"}
+
+\section*{ace2/wifi/captivedaily.py}
+\lstinputlisting[language=Python]{"/media/sf_share/ACE/ACE2/ACE_DEV/ace2/wifi/captivedaily.py"}
+
+\section*{ace2/wifi/captivemonthly.py}
+\lstinputlisting[language=Python]{"/media/sf_share/ACE/ACE2/ACE_DEV/ace2/wifi/captivemonthly.py"}
+
+\section*{ace2/wifi/captiveweekly.py}
+\lstinputlisting[language=Python]{"/media/sf_share/ACE/ACE2/ACE_DEV/ace2/wifi/captiveweekly.py"}
+
+\section*{ace2/wifi/daily.py}
+\lstinputlisting[language=Python]{"/media/sf_share/ACE/ACE2/ACE_DEV/ace2/wifi/daily.py"}
+
+\section*{ace2/wifi/\_\_init\_\_.py}
+\lstinputlisting[language=Python]{"/media/sf_share/ACE/ACE2/ACE_DEV/ace2/wifi/__init__.py"}
+
+\section*{ace2/wifi/monthly.py}
+\lstinputlisting[language=Python]{"/media/sf_share/ACE/ACE2/ACE_DEV/ace2/wifi/monthly.py"}
+
+\section*{ace2/wifi/weekly.py}
+\lstinputlisting[language=Python]{"/media/sf_share/ACE/ACE2/ACE_DEV/ace2/wifi/weekly.py"}
+
+\end{document}
