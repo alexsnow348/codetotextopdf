@@ -67,7 +67,4 @@ can be used to quickly grab files of multiple extensions from within a folder:
 
 Or from multiple nested folders:
 
-    ./code2tex.py codefolder/*/*.{html,css,js} > code.tex
-
-and :
-    pdflatex code.tex
+    ./code2tex.py codefolder/*/*.{html,css,js} > code.tex && pdflatex code.tex
