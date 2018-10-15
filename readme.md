@@ -63,7 +63,7 @@ Wildcards and [brace
 expansion](https://www.gnu.org/software/bash/manual/html_node/Brace-Expansion.html)
 can be used to quickly grab files of multiple extensions from within a folder:
 
-    ./code2tex.py codefolder/*.{html,css,js} > code.tex
+    ./code2tex.py codefolder/*.{html,css,js} > code.tex && pdflatex code.tex
 
 Or from multiple nested folders:
 
